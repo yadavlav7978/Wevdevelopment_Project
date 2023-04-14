@@ -1,0 +1,108 @@
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 75px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0px 10px;
+}
+
+.image img {
+    height: 71px;
+    padding: 5px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 0px 17px;
+}
+
+.container {
+    min-height: 500px;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+#progresbar {
+    width: 1000px;
+    cursor: pointer;
+}
+
+.icon {
+    margin: 10px 0px;
+}
+
+.icon i {
+    padding: 3px;
+    cursor: pointer;
+}
+
+.songlist {
+    display: flex;
+    width: 400px;
+    height: 35px;
+    background-color: white;
+    color: black;
+    margin: 20px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.songlist img {
+    width: 40px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.songlist i {
+    cursor: pointer;
+}
+
+.Time {
+    margin: 10px;
+}
+
+.heading {
+    padding-left: 100px;
+}
+
+.palyingimg{
+    position: absolute;   /* this code block is positioning the "playingimg" element absolutely and placing it 17% of 
+                                   the viewport width to the right of the left edge of its containing element. */
+    left: 17vw;
+
+}
